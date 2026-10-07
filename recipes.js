@@ -1,5 +1,5 @@
 // Здесь живут все рецепты. Чтобы добавить новый, скопируйте блок { ... } и поменяйте текст.
-// Фото кладите в папку photos/ и указывайте имя файла в поле photo.
+// Фото кладите рядом с index.html (в общий список файлов) и указывайте имя файла в поле photo.
 
 const SITE = {
   name: 'vikifitmeals',
@@ -18,7 +18,7 @@ const RECIPES = [
     title: 'Манная каша с папайей, ванильной шапочкой и фисташкой',
     kcal: 380, protein: 12, fat: 12, carbs: 59,
     time: 15,
-    photo: 'photos/mannaya-kasha-s-papayei.jpg',
+    photo: 'mannaya-kasha.jpg',
     ingredients: [
       'Манная крупа «Макфа» — 35 г',
       'Молоко full cream Al Rawabi — 170 мл',
