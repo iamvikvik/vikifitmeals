@@ -1,4 +1,4 @@
-const CACHE = 'vikifitmeals-v3';
+const CACHE = 'vikifitmeals-v4';
 const ASSETS = ['./','./index.html','./recipes.js','./cover.jpg','./manifest.webmanifest',
   './icon-192.png','./icon-512.png','./apple-touch-icon.png','./mannaya-kasha.jpg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS))); self.skipWaiting(); });
